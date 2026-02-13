@@ -24,6 +24,11 @@ Si quieres backend real:
 NEXT_PUBLIC_USE_MOCK=false npm run dev
 ```
 
+Con backend real también puedes definir base URL:
+```bash
+NEXT_PUBLIC_USE_MOCK=false NEXT_PUBLIC_API_BASE_URL=http://localhost:8080 npm run dev
+```
+
 ## Rutas
 - `/login`
 - `/` overview
