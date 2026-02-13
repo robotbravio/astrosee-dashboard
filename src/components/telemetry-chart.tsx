@@ -44,6 +44,7 @@ export function TelemetryChart({
           </LineChart>
         </ResponsiveContainer>
       </div>
+           
     </div>
   );
 }

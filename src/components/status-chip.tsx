@@ -23,4 +23,5 @@ export function StatusChip({ status }: { status: StationStatus }) {
       {label[status]}
     </span>
   );
+
 }

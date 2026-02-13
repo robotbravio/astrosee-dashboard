@@ -16,6 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 <Header />
                 <main className="p-4">{children}</main>
               </div>
+
             </div>
           </div>
         </Providers>
