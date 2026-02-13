@@ -9,11 +9,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="es">
       <body>
         <Providers>
-          <div className="flex min-h-screen">
-            <Sidebar />
-            <div className="flex-1">
-              <Header />
-              <main className="p-6">{children}</main>
+
             </div>
           </div>
         </Providers>
